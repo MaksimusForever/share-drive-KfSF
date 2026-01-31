@@ -1,0 +1,115 @@
+D:.
+|   .env
+|   package-lock.json
+|   package.json
+|   
++---client
+|   |   .env
+|   |   .gitignore
+|   |   package.json
+|   |   postcss.config.js
+|   |   README.md
+|   |   tailwind.config.js
+|   |   
+|   +---build
+|   |   |   asset-manifest.json
+|   |   |   favicon.ico
+|   |   |   index.html
+|   |   |   logo192.png
+|   |   |   logo512.png
+|   |   |   manifest.json
+|   |   |   robots.txt
+|   |   |   
+|   |   \---static
+|   |       +---css
+|   |       |       main.3dc7a7db.css
+|   |       |       main.3dc7a7db.css.map
+|   |       |       
+|   |       \---js
+|   |               453.eb570f4f.chunk.js
+|   |               453.eb570f4f.chunk.js.map
+|   |               main.de0c3f0f.js
+|   |               main.de0c3f0f.js.LICENSE.txt
+|   |               main.de0c3f0f.js.map
+|   |               
+|   +---node_modules
+|   |       ....
+|   +---public
+|   |       favicon.ico
+|   |       index.html
+|   |       logo192.png
+|   |       logo512.png
+|   |       manifest.json
+|   |       robots.txt
+|   |       
+|   \---src
+|       |   App.css
+|       |   App.js
+|       |   App.test.js
+|       |   cropUtils.js
+|       |   index.css
+|       |   index.js
+|       |   logo.svg
+|       |   reportWebVitals.js
+|       |   setupTests.js
+|       |   
+|       +---components
+|       |       AuthModal.js
+|       |       Badge.js
+|       |       BottomNav.js
+|       |       Breadcrumbs.js
+|       |       CourseCard.js
+|       |       Footer.js
+|       |       Header.js
+|       |       ProtectedRoute.js
+|       |       TimelineStep.js
+|       |       
+|       +---context
+|       |       AuthContext.js
+|       |       
+|       \---pages
+|               About.js
+|               AuthPage.js
+|               BookingPage.js
+|               Contacts.js
+|               CourseDetail.js
+|               Courses.js
+|               EditorUser.js
+|               Home.js
+|               Instructors.js
+|               logo.jpg
+|               MastercarRegister.js
+|               Payments.js
+|               Profile.js
+|               StaffRegister.js
+|               
++---node_modules
+|       ....
+\---server
+    |   .env
+    |   days.json
+    |   groups.json
+    |   not_wdays.json
+    |   package-lock.json
+    |   package.json
+    |   times.json
+    |   
+    +---info_students
+    |       1766406212080.json
+    |       
+    +---node_modules
+    |       ....
+    +---src
+    |   |   .env
+    |   |   index.js
+    |   |   users.json
+    |   |   
+    |   \---info_students
+    |           1765797295573.json
+    |           1765965362658.json
+    |           1769625384243.json
+    |           1769791392519.json
+    |           1769861152812.json
+    |           
+    \---uploads
+        \---masters

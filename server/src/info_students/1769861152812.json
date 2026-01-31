@@ -1,0 +1,12 @@
+{
+  "payment": 0,
+  "theoryProgress": 0,
+  "practiceProgress": 0,
+  "instructor": {
+    "id": "",
+    "fullName": "",
+    "photo": ""
+  },
+  "payments": [],
+  "booking": []
+}
