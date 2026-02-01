@@ -1,0 +1,65 @@
+{
+  "proxy": "http://localhost:5000",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^7.2.4",
+    "date-fns": "^4.1.0",
+    "express-rate-limit": "^8.2.1",
+    "framer-motion": "^12.23.26",
+    "jsonwebtoken": "^9.0.3",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.561.0",
+    "react": "^18.3.1",
+    "react-day-picker": "^9.13.0",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.4.0",
+    "react-easy-crop": "^5.5.6",
+    "react-router-dom": "^6.30.2",
+    "react-select": "^5.10.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.10",
+    "vite": "^7.3.1"
+  },
+  "overrides": {
+    "ajv": "^7.2.4",
+    "ajv-keywords": "^5.1.0",
+    "schema-utils": "^4.2.0",
+    "@apideck/better-ajv-errors": {
+      "ajv": "^7.2.4"
+    }
+  }
+}
